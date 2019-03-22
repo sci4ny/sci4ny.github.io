@@ -20,6 +20,7 @@ h1 {
 p {
   max-width: 65%;
   min-width: 500px;
+  text-align: center;
 }
 
 h2 {
@@ -41,7 +42,13 @@ video {
 }
 
 .container {
-  display: flex;
+  width: 200px;
+  height: 120px;
+}
+
+.container img {
+    width: 50%;
+    height: auto;
 }
 
 .main {
